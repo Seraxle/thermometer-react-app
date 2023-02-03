@@ -1,0 +1,17 @@
+/*
+ * Thermometer React App
+ * Selector component CSS source code
+ *
+ * Author: Jarvis Ly
+ * Version: 1.0
+ */
+ input[type="text"] {
+    text-align: right;
+}
+/*
+* Changed background color of select options
+* for better visibility
+*/
+.option {
+    color: white;
+}

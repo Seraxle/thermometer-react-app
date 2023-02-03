@@ -1,0 +1,66 @@
+/*
+ * Thermometer React App
+ * Display component CSS source code
+ *
+ * Author: Jarvis Ly
+ * Version: 1.0
+ */
+.Display {
+    text-align: center;
+}
+/*
+* Below are the styles for the thermometer icon
+*/
+.meter {
+    height: 20px;
+    margin: 50px;
+    position: relative;
+    overflow: visible;
+    border-radius: 50px;
+    background-color: #eee;
+    border: 10px solid black;
+    border-right: none;
+    padding: 10px;
+}
+.botTherm {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border: 10px solid black;
+    background: #eee;
+    position: absolute;
+    border-radius: 50px;
+    right: -30px;
+    top: -30px;
+}
+.meter .botTherm .fillMet {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    z-index: 101;
+}
+.meter .prog {
+    height: 20px;
+    width: 100%;
+    background-color: #ccc;
+    float: right;
+    border-radius: 50px 0 0 50px;
+}
+/*
+* Below are the styles for the range (min/max) ticks
+*/
+.tickMin {
+    border-left: 6px solid black;
+    margin-left: 94%;
+    margin-top: -2%;
+    height: 40px;
+    position: absolute;
+}
+.tickMax {
+    border-left: 6px solid black;
+    margin-left: 3.5%;
+    margin-top: -2%;
+    height: 40px;
+    position: absolute;
+}

@@ -1,0 +1,35 @@
+/*
+ * Thermometer React App
+ * App component CSS source code
+ *
+ * Author: Jarvis Ly
+ * Version: 1.0
+ */
+ body {
+  background-color: orange;
+}
+/*
+* Below are the styles for the displayed data like
+* the changed temperatures and the current temperature tick
+*/
+.max {
+  margin-left: 3%;
+}
+.temp {
+  margin-left: 43%;
+  font-weight: bold;
+  font-size: large;
+}
+.min {
+  margin-left: 44.2%;
+}
+.tickCurrent {
+  border-left: 6px solid red;
+  margin-left: 75.9%;
+  margin-top: -2%;
+  height: 40px;
+  position: absolute;
+}
+.title {
+  font-weight: bold;
+}
